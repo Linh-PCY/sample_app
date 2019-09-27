@@ -1,0 +1,5 @@
+vi:
+  static_pages:
+    home:
+      PCY: Ứng dụng mẫu
+      PCY2: Đây là trang chủ cho ứng dụng mẫu Ruby on Rails Tutorial.
