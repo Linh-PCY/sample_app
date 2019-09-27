@@ -1,0 +1,912 @@
+Started GET "/" for ::1 at 2019-09-26 09:01:45 +0700
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 28.2ms | Allocations: 483)
+Completed 200 OK in 81ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 2745)
+
+
+Started GET "/sample_app" for ::1 at 2019-09-26 09:02:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/sample_app"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-26 09:03:09 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.2ms | Allocations: 195)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 860)
+
+
+Started GET "/" for ::1 at 2019-09-26 09:55:09 +0700
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 50ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 1742)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-09-26 09:55:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.2ms | Allocations: 371)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/pham/Documents/rb/sample_app/public/packs
+Completed 200 OK in 10760ms (Views: 10663.0ms | ActiveRecord: 0.0ms | Allocations: 1427364)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-09-26 10:27:23 +0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 376)
+Completed 200 OK in 781ms (Views: 775.7ms | ActiveRecord: 0.0ms | Allocations: 1421587)
+
+
+Started GET "/static_pages/help" for ::1 at 2019-09-26 10:27:37 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4082)
+
+
+Started GET "/static_pages/about" for ::1 at 2019-09-26 10:39:07 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/about"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/static_pages/home" for ::1 at 2019-09-26 10:39:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 95)
+Completed 200 OK in 836ms (Views: 835.2ms | ActiveRecord: 0.0ms | Allocations: 1419848)
+
+
+Started GET "/static_pages/help" for ::1 at 2019-09-26 10:39:44 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4099)
+
+
+Started GET "/static_pages/about" for ::1 at 2019-09-26 10:46:17 +0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/about"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/static_pages/about" for ::1 at 2019-09-26 10:47:32 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+Completed 200 OK in 768ms (Views: 767.2ms | ActiveRecord: 0.0ms | Allocations: 1420001)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-09-26 11:39:54 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 375)
+Completed 500 Internal Server Error in 837ms (ActiveRecord: 0.0ms | Allocations: 1426093)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.):
+    4:     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag "application", media: "all","data-turbolinks-track": "reload"%>
+    7:     <%= javascript_include_tag "application","data-turbolinks-track": "reload" %>
+    8:   </head>
+    9: 
+   10:   <body>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/static_pages/home" for ::1 at 2019-09-26 11:44:13 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.1ms | Allocations: 383)
+Completed 200 OK in 16ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3699)
+
+
+Started GET "/static_pages/help" for ::1 at 2019-09-26 11:45:40 +0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (Duration: 1.2ms | Allocations: 386)
+Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3698)
+
+
+Started GET "/static_pages/about" for ::1 at 2019-09-26 11:45:46 +0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (Duration: 0.4ms | Allocations: 107)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 746)
+
+
+Started GET "/" for ::1 at 2019-09-27 08:14:31 +0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'hello' could not be found for ApplicationController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/static_pages/home" for ::1 at 2019-09-27 08:15:09 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.8ms | Allocations: 695)
+Completed 200 OK in 56ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 2475)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:15:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.1ms | Allocations: 191)
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 624)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:15:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.6ms | Allocations: 189)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 1621)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:15:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.7ms | Allocations: 191)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 623)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:15:15 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 623)
+
+
+Started GET "/en/static_pages/help" for ::1 at 2019-09-27 08:15:23 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (Duration: 0.4ms | Allocations: 104)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/about" for ::1 at 2019-09-27 08:15:31 +0700
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (Duration: 0.4ms | Allocations: 106)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 652)
+
+
+Started GET "/" for ::1 at 2019-09-27 08:15:43 +0700
+  
+AbstractController::ActionNotFound (The action 'hello' could not be found for ApplicationController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-27 08:18:18 +0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.0ms | Allocations: 483)
+Completed 200 OK in 42ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 2746)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-09-27 08:24:01 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 396.4ms | Allocations: 12715)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms | Allocations: 14381)
+
+
+  
+ActionView::Template::Error (can not load translations from /home/pham/Documents/rb/sample_app/config/locales/vi.yml: expects it to return a hash, but does not):
+    4:     <title>Home | Ruby on Rails Tutorial Sample App</title>
+    5:   </head>
+    6:   <body>
+    7:     <h1><%= t(".PCY") %></h1>
+    8:     <h2>
+    9:       <%= link_to "English", locale:"en" %>
+   10:       <%= link_to "Vietnamese", locale:"vi" %>
+  
+app/views/static_pages/home.html.erb:7
+Started GET "/static_pages/home" for ::1 at 2019-09-27 08:27:23 +0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 9.1ms | Allocations: 4740)
+Completed 200 OK in 20ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 7956)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:27:26 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.2ms | Allocations: 225)
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 1660)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:27:27 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.0ms | Allocations: 221)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 653)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:27:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.5ms | Allocations: 221)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 653)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:27:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.3ms | Allocations: 221)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 653)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:27:30 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.8ms | Allocations: 218)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 648)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:27:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.1ms | Allocations: 218)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 648)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:27:32 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.7ms | Allocations: 218)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 648)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:27:32 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.1ms | Allocations: 218)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 648)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:30:09 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 8.9ms | Allocations: 4841)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 8054)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:30:19 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.6ms | Allocations: 249)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:30:20 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 244)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:30:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 244)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:30:22 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.8ms | Allocations: 241)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:30:23 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.8ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:30:25 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 244)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:31 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 7.5ms | Allocations: 4841)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 8054)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.5ms | Allocations: 249)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:34 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 244)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:35 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.1ms | Allocations: 244)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:35 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.5ms | Allocations: 244)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:36 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.6ms | Allocations: 241)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:37 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.5ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:38 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.8ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:38 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.7ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:39 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.3ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:39 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 5.3ms | Allocations: 241)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.9ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:58 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.5ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:34:58 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.7ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:34:59 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.9ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:35:00 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.9ms | Allocations: 241)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:18 +0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 5.7ms | Allocations: 4591)
+Completed 200 OK in 20ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 7805)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.5ms | Allocations: 249)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.6ms | Allocations: 244)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:24 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.8ms | Allocations: 244)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:26 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 244)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 676)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:26 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.8ms | Allocations: 241)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:27 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 4.4ms | Allocations: 241)
+Completed 200 OK in 14ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.9ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.7ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.4ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.2ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:30 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 4.8ms | Allocations: 241)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:30 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.1ms | Allocations: 241)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.2ms | Allocations: 241)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 4.0ms | Allocations: 241)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:32 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.4ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:39 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.1ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:39 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.1ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.6ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.2ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:41 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.8ms | Allocations: 241)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 672)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:41 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.6ms | Allocations: 241)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.7ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.5ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 08:37:43 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.8ms | Allocations: 241)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 08:37:43 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 3.3ms | Allocations: 241)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 671)
+
+
+Started GET "/" for ::1 at 2019-09-27 09:02:53 +0700
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pham/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.3ms | Allocations: 483)
+Completed 200 OK in 55ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 2747)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-09-27 09:02:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 100.7ms | Allocations: 4308)
+Completed 200 OK in 116ms (Views: 114.6ms | ActiveRecord: 0.0ms | Allocations: 5989)
+
+
+Started GET "/vi/static_pages/home" for ::1 at 2019-09-27 09:03:01 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.1ms | Allocations: 244)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 677)
+
+
+Started GET "/en/static_pages/home" for ::1 at 2019-09-27 09:03:01 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.4ms | Allocations: 249)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 1683)
+
+

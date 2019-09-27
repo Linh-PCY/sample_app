@@ -1,0 +1,5 @@
+en:
+  static_pages:
+    home:
+      PCY: Sample app
+      PCY2: This is the home page for the Ruby on Rails Tutorial sample application.
